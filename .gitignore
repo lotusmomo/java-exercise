@@ -2,7 +2,6 @@
 *.class
 *.jar
 .dist/
-dist/
 _dist/
 tmp/
 temp/
