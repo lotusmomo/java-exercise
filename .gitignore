@@ -1,0 +1,8 @@
+*.class
+*.jar
+.dist/
+dist/
+_dist/
+tmp/
+temp/
+_temp/
