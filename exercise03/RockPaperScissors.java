@@ -1,16 +1,24 @@
 //3.1
 
-// Not over till now!
-// Don't copy!
-
 import java.util.Scanner;
 import java.util.Random;
 
 public class RockPaperScissors {
-    public class Game {
-        boolean getWin(int n1, int n2) {
+    public static boolean isWin(int a, int b) {
+        if (a == 0 && b== 1) {
             return false;
+        } else if (a == 0 && b== 2) {
+            return true;
+        } else if (a == 1 && b== 0) {
+            return true;
+        } else if (a == 1 && b== 2) {
+            return false;
+        } else if (a == 2 && b== 0) {
+            return false;
+        } else if (a == 2 && b== 1) {
+            return true;
         }
+        return false;
     }
     public static void main(String args[]) {
         System.out.print("scissor (0), rock (1), paper(2): ");
@@ -34,9 +42,15 @@ public class RockPaperScissors {
             } else if (input ==  2) {
                 System.out.print("paper");
             }
-            System.out.print(" ");
             if (random == input) {
-                System.out.println("too. It is a draw.");
+                System.out.println(" too. It is a draw.");
+            } else {
+                System.out.print(". ");
+                if (isWin(input, random)) {
+                    System.out.println("You won");
+                } else {
+                    System.out.println("Computer won");
+                }
             }
         }
     }
