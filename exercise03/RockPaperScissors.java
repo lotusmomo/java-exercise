@@ -1,4 +1,8 @@
 //3.1
+
+// Not over till now!
+// Don't copy!
+
 import java.util.Scanner;
 import java.util.Random;
 

@@ -1,3 +1,5 @@
+//1.7
+
 import java.lang.Math;
 //(-1)^k*/(2k+1), k from 0 to 6
 public class ApproxPi {

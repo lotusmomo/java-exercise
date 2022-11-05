@@ -1,3 +1,5 @@
+//1.3
+
 public class DisplayPattern {
     public static void main (String[] args) {
         System.out.println("    J    A  V     V  A");

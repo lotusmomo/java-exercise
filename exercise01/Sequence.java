@@ -1,3 +1,5 @@
+//1.6
+
 public class Sequence {
     public static void main(String[] args) {
         int n = 0;
