@@ -25,7 +25,7 @@ public class RockPaperScissors {
         try (Scanner sc = new Scanner(System.in)) {
             Random  ra = new Random();
             int input  = sc.nextInt();
-            int random = ra.nextInt(2);
+            int random = ra.nextInt(3);
             System.out.print("The computer is ");
             if (random == 0) {
                 System.out.print("scissor");
