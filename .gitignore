@@ -6,3 +6,4 @@ _dist/
 tmp/
 temp/
 _temp/
+.vscode
